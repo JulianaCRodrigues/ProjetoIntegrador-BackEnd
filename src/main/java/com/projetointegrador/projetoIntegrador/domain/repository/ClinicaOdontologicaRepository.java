@@ -1,0 +1,13 @@
+package com.projetointegrador.projetoIntegrador.domain.repository;
+
+import com.projetointegrador.projetoIntegrador.domain.entity.ClinicaOdontologica;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import org.springframework.stereotype.Repository;
+
+import java.util.UUID;
+
+@Repository
+public interface ClinicaOdontologicaRepository extends JpaRepository<ClinicaOdontologica, UUID> {
+
+}
